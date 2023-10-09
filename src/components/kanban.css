@@ -1,0 +1,81 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  overflow-x: scroll !important;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  font-weight: bold;
+}
+
+.select-control {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.columns {
+  margin: 10px auto;
+  padding: 20px;
+
+  display: flex;
+  gap: 30px;
+
+  justify-content: flex-start;
+}
+
+.navbar {
+  height: 50px;
+  background-color: white;
+  padding: 10px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.column {
+  flex: 1;
+  /* background-color: #fff; */
+}
+
+.column h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+}
+
+.categoryLabel {
+  margin: 10px auto;
+  display: flex;
+
+  justify-content: space-between;
+}
+.start,
+.end {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  /* height: 50px; */
+
+  font-size: 22px;
+  font-weight: bold;
+}
